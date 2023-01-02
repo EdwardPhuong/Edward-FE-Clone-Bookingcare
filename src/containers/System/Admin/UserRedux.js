@@ -148,6 +148,7 @@ class UserRedux extends Component {
         gender: this.state.gender,
         position: this.state.position,
         roleId: this.state.role,
+        avatar: this.state.avatar,
       });
     }
   };
