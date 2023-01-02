@@ -1,0 +1,41 @@
+.manage-specialty-container {
+    padding : 0 15px;
+
+    .ms-title {
+        text-align     : center;
+        margin         : 20px 0;
+        text-transform : uppercase;
+        font-size      : 20px;
+        font-weight    : 600;
+        color          : #333;
+    }
+
+    .add-new-specialty {
+
+        .right-content-specialty {
+            display        : flex;
+            flex-direction : column;
+
+            .down {
+
+                .label-upload {
+                    background-color : grey;
+                    padding          : 5px 10px;
+                    cursor           : pointer;
+                }
+            }
+
+        }
+
+        .btn-save-specialty {
+            border           : none;
+            background-color : rgb(5, 179, 253);
+            color            : white;
+            padding          : 8px 5px;
+            min-width        : 75px;
+            border-radius    : 3px;
+            margin           : 15px 0;
+        }
+    }
+
+}

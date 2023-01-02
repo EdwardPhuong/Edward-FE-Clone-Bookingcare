@@ -1,0 +1,228 @@
+.home-header-container {
+    height     : 65px;
+    width      : 100%;
+    padding    : 0 40px;
+    background : white;
+    position   : sticky;
+    top        : 0;
+    z-index    : 100;
+
+    .home-header-content {
+        width   : 100%;
+        height  : 100%;
+        display : flex;
+
+        .left-content {
+            width       : 20%;
+            display     : flex;
+            align-items : center;
+
+            .header-logo {
+                // background: url("../../assets/Bookingcare-Logo.svg") center center no-repeat;
+                height      : 100%;
+                width       : 100%;
+                cursor      : pointer;
+                transform   : scale(0.6, 0.6);
+                margin-left : -40px;
+            }
+
+            i {
+                font-size : 25px;
+                cursor    : pointer;
+                color     : grey;
+            }
+        }
+
+        .center-content {
+            width           : 55%;
+            display         : flex;
+            justify-content : space-between;
+            align-items     : center;
+
+            .child-content {
+                .sub-title {
+                    font-weight : 400;
+                    font-size   : 11px;
+                }
+            }
+        }
+
+        .right-content {
+            width           : 25%;
+            display         : flex;
+            align-items     : center;
+            justify-content : space-around;
+            padding-left    : 60px;
+
+            .support {
+                cursor : pointer;
+
+                i {
+                    font-size    : 15px;
+                    color        : grey;
+                    margin-right : 5px;
+                }
+            }
+
+            .language-vi {
+                display         : flex;
+                align-items     : center;
+                justify-content : center;
+                cursor          : pointer;
+                opacity         : 0.2;
+
+                img {
+                    width        : 100%;
+                    height       : 30px;
+                    margin-right : 5px;
+                }
+
+                &:hover {
+                    opacity : 0.5;
+                }
+
+                &.active {
+                    opacity : 0.9;
+
+                    span {
+                        color : rgb(229, 65, 65);
+                    }
+                }
+            }
+
+            .language-en {
+                display         : flex;
+                align-items     : center;
+                justify-content : center;
+                cursor          : pointer;
+                opacity         : 0.2;
+
+                img {
+                    width        : 100%;
+                    height       : 30px;
+                    margin-right : 5px;
+                }
+
+                &:hover {
+                    opacity : 0.5;
+                }
+
+                &.active {
+                    opacity : 0.9;
+
+                    span {
+                        color : rgb(58, 58, 234);
+                    }
+                }
+            }
+        }
+    }
+}
+
+.home-header-banner {
+    background          : url("../../assets/Bookingcare-Banner.jpg");
+    height              : 485px;
+    background-repeat   : no-repeat;
+    background-size     : cover;
+    background-position : center;
+    display             : flex;
+    flex-direction      : column;
+
+
+    .top-content {
+        background-image : linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0.1));
+        height           : 65%;
+        padding-top      : 15px;
+
+        .title1 {
+            text-align    : center;
+            font-size     : 30px;
+            text-shadow   : 1px 1px 1px #333;
+            margin-bottom : 15px;
+            color         : white;
+            margin-bottom : 5px;
+            margin-top    : 30px;
+        }
+
+        .title2 {
+            text-align    : center;
+            font-size     : 30px;
+            text-shadow   : 1px 1px 1px #333;
+            color         : white;
+            margin-bottom : 15px;
+        }
+
+        .search {
+            display          : flex;
+            width            : fit-content;
+            justify-content  : center;
+            align-items      : center;
+            margin           : 0 auto;
+            padding          : 10px;
+            border-radius    : 25px;
+            background-color : #f7d800;
+
+            i {
+                margin : 0 5px;
+            }
+
+            input {
+                height     : 30px;
+                width      : 365px;
+                background : transparent;
+                border     : none;
+                outline    : none;
+            }
+        }
+    }
+
+    .bottom-content {
+        height           : 35%;
+        display          : flex;
+        align-items      : flex-end;
+        justify-content  : center;
+        padding-bottom   : 30px;
+        background-image : linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.664), rgba(255, 255, 255, 1));
+
+        .options {
+            text-align      : center;
+            display         : flex;
+            justify-content : center;
+            gap             : 50px;
+
+            .option-child {
+                width : 125px;
+
+                .option-icon-child {
+                    background-color : white;
+                    width            : 50px;
+                    height           : 50px;
+                    border-radius    : 50%;
+                    margin           : 0 auto;
+                    padding          : 10px;
+                    text-align       : center;
+                    display          : flex;
+                    align-items      : center;
+                    justify-content  : center;
+
+                    i {
+                        font-size : 25px;
+                        color     : #adadee;
+                    }
+                }
+
+                .text-icon-child {
+                    font-weight : 500;
+                    font-size   : 15px;
+                    cursor      : pointer;
+
+                    &:hover {
+                        color : #adadee;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

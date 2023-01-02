@@ -1,0 +1,77 @@
+{
+    "home-header": {
+        "speciality": "Chuyên Khoa",
+        "search-doctor-with-speciality": "Tìm Bác Sĩ Theo Chuyên Khoa",
+        "facilities": "Cơ Sở Y Tế",
+        "choose-hospital-clinic": "Chọn Bệnh Viện Phòng Khám",
+        "doctor": "Bác Sĩ",
+        "choose-qualified-doctor": "Chọn Bác Sĩ Giỏi",
+        "medical-examination-package": "Gói Khám",
+        "health-medical-check": "Khám Sức Khoẻ Tổng Quát",
+        "support": "Hỗ Trợ",
+        "welcome": "Xin Chào, ",
+        "popular-speciality": "Chuyên Khoa Phổ Biến"
+    },
+
+    "banner": {
+        "title1": "NỀN TẢNG Y TẾ",
+        "title2": "CHĂM SÓC SỨC KHỎE TOÀN DIỆN",
+        "search-tag-i": "Tìm Chuyên Khoa Khám Bệnh",
+        "text-icon-child-1": "Khám Chuyên Khoa",
+        "text-icon-child-2": "Khám Từ Xa",
+        "text-icon-child-3": "Khám Tổng Quát",
+        "text-icon-child-4": "Xét Nghiệm Y Học",
+        "text-icon-child-5": "Sức Khoẻ Tinh Thần",
+        "text-icon-child-6": "Nha Khoa Khám"
+    },
+
+    "menu": {
+        "admin": {
+            "manage-user": "Người Dùng",
+            "manage-doctor": "Quản Lý Bác Sĩ",
+            "manage-admin": "Quản Lý Administrator",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD Redux User",
+            "clinic": "Phòng Khám",
+            "manage-clinic": "Quản Lý Phòng Khám",
+            "specialty": "Chuyên Khoa",
+            "manage-specialty": "Quản Lý Chuyên Khoa",
+            "handbook": "Cẩm Nang",
+            "manage-handbook": "Quản Lý Cẩm Nang"
+        },
+
+        "doctor": {
+            "manage-schedule": "Quản Lý Lịch Khám",
+            "manage-patient" : "Quản Lý Bệnh Nhân"
+        }
+    },
+    "manage-user": {
+        "add": "Thêm Mới Người Dùng",
+        "email": "Email",
+        "password": "Mật Khẩu",
+        "first-name": "Tên",
+        "last-name": "Họ",
+        "phone-number": "Số Điện Thoại",
+        "address": "Địa Chỉ",
+        "gender": "Giới Tính",
+        "position": "Chức Danh",
+        "role-id": "Vai Trò",
+        "image": "Ảnh Đại Diện",
+        "create-user": "Tạo Người Dùng Mới ",
+        "edit-user": "Lưu Thay Đổi  "
+
+    },
+    "homepage": {
+        "outstanding-doctor": "Bác Sĩ Nổi Bật Tuần Qua",
+        "more-info": "Xem Thêm"
+
+    },
+    "manage-schedule": {
+        "title": "Quản Lý Kế Hoạch Khám Bệnh Của Bác Sĩ",
+        "choose-doctor": "Chọn Bác Sĩ",
+        "choose-date": "Chọn Ngày",
+        "save" : "Lưu Thông Tin",
+        "schedule": "Lịch Khám",
+        "no-appointment": "Không có lịch hẹn trống vào thời gian này, vui lòng chọn thời gian khác !"
+    }
+}

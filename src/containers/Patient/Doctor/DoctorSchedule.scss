@@ -1,0 +1,80 @@
+.doctor-schedule-container {
+    border-right : 1px solid #ddd;
+
+    .doctor-schedule-header {
+        select {
+            border-bottom : 1px solid #ddd;
+            border-top    : none;
+            border-right  : none;
+            border-left   : none;
+            outline       : none;
+            cursor        : pointer;
+            padding       : 10px 0;
+            color         : #337ab7;
+            font-weight   : 600;
+        }
+    }
+
+    .all-available-time {
+        // border  : 1px solid red;
+        padding : 5px 5px;
+
+        .calendar-icon-text {
+            color          : #333;
+            display        : flex;
+            align-items    : center;
+            padding-top    : 5px;
+            padding-bottom : 10px;
+            font-size      : 15px;
+
+            i {
+                margin-right : 8px;
+                font-size    : 18px;
+            }
+
+            span {
+                text-transform : uppercase;
+                font-weight    : 600;
+                color          : #333;
+                padding-top    : 4px;
+            }
+        }
+
+        .available-time {
+            font-style : italic;
+
+            .available-time-button {
+                display   : flex;
+                gap       : 15px;
+                flex-wrap : wrap;
+
+                button {
+                    padding          : 5px 10px;
+                    border           : none;
+                    outline          : none;
+                    background-color : #4bff57;
+                    border-radius    : 3%;
+                    font-weight      : 600;
+                    color            : #333;
+
+                    &:hover {
+                        background-color : #45c3d2;
+                        color            : white;
+                    }
+                }
+
+                .btn-vi {
+                    min-width : 120px
+                }
+
+                .btn-en {
+                    min-width : 150px;
+                }
+            }
+
+            .book-free {
+                margin-top : 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "home-header": {
+        "speciality": "Medical Specialties",
+        "search-doctor-with-speciality": "Find Doctor With Specialties",
+        "facilities": "Facilities",
+        "choose-hospital-clinic": "Choose Hospitals or Clinics",
+        "doctor": "Doctor",
+        "choose-qualified-doctor": "Choose Qualified Doctor",
+        "medical-examination-package": "Medical Examination Package",
+        "health-medical-check": "Health Medical Check",
+        "support": "Support",
+        "welcome": "Welcome, ",
+        "popular-speciality": "Popular Specialties"
+    },
+    "banner": {
+        "title1": "Medical Foundation",
+        "title2": "Comprehensive Health Care",
+        "search-tag-i": "Tìm Chuyên Khoa Khám Bệnh",
+        "text-icon-child-1": "Find Medical Specialtiesa",
+        "text-icon-child-2": "Remote Medical Check",
+        "text-icon-child-3": "General Health Check",
+        "text-icon-child-4": "Medical Test",
+        "text-icon-child-5": "Metal Health",
+        "text-icon-child-6": "Dental Examination"
+    },
+    "menu": {
+        "admin": {
+            "manage-user": "Users System",
+            "manage-doctor": "Manage Doctors",
+            "manage-admin": "Manage Administrators",
+            "crud": "CRUD User",
+            "crud-redux": "CRUD Redux User",
+            "clinic": "Clinics",
+            "manage-clinic": "Manage Clinics",
+            "specialty": "Specialty",
+            "manage-specialty": "Manage Specialties",
+            "handbook": "Handbook",
+            "manage-handbook": "Manage Handbooks"
+        },
+
+        "doctor": {
+            "manage-schedule": "Manage D's Appointment",
+            "manage-patient": "Manage Patient"
+        }
+    },
+    "manage-user": {
+        "add": "Add New User",
+        "email": "Email",
+        "password": "Password",
+        "first-name": "First Name",
+        "last-name": "Last Name",
+        "phone-number": "Phone Number",
+        "address": "Address",
+        "gender": "Gender",
+        "position": "Position",
+        "role-id": "Role",
+        "image": "Avater",
+        "create-user": "Create New User ",
+        "edit-user": "Edit User  "
+
+    },
+    "homepage": {
+        "outstanding-doctor": "Outstanding Doctors Last Week",
+        "more-info": "More"
+    },
+    "manage-schedule": {
+        "title": "Manage Doctor's Appointment",
+        "choose-doctor": "Choose Doctor",
+        "choose-date": "Select Date",
+        "save" : "Save Appointment",
+        "schedule": "Making Appointment",
+        "no-appointment": "There is no appointment available for today, please select other date !"
+
+
+
+    }
+    
+}
