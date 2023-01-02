@@ -13,7 +13,7 @@ export const fetchGenderStart = () => {
 				type: actionTypes.FETCH_GENDER_START,
 			});
 
-			let response = await userService.getAllCodeService("gender");
+			let response = await userService.getAllCodeService("GENDER");
 			if (response && response.errCode === 0) {
 				dispatch(fetchGenderSuccess(response.data));
 			} else {
@@ -56,7 +56,7 @@ export const fetchRoleFailed = () => ({
 export const fetchPositionStart = () => {
 	return async (dispatch, getState) => {
 		try {
-			let response = await userService.getAllCodeService("position");
+			let response = await userService.getAllCodeService("POSITION");
 			if (response && response.errCode === 0) {
 				dispatch(fetchPositionSuccess(response.data));
 			} else {
@@ -72,7 +72,7 @@ export const fetchPositionStart = () => {
 export const fetchRoleStart = () => {
 	return async (dispatch, getState) => {
 		try {
-			let response = await userService.getAllCodeService("role");
+			let response = await userService.getAllCodeService("ROLE");
 			if (response && response.errCode === 0) {
 				dispatch(fetchRoleSuccess(response.data));
 			} else {
@@ -268,7 +268,7 @@ export const saveDetailsDoctor = (inputData) => {
 export const fetchAllCodeScheduleTime = () => {
 	return async (dispatch, getState) => {
 		try {
-			let dataTimeResponse = await userService.getAllCodeService("time");
+			let dataTimeResponse = await userService.getAllCodeService("TIME");
 			if (dataTimeResponse && dataTimeResponse.errCode === 0) {
 				dispatch({
 					type: actionTypes.FETCH_ALLCODE_SCHEDULE_TIME_SUCCESS,
